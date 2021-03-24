@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/mateu/CLionProjects/Sdizo/Code/list.h
+iostream
+-
+
+C:/Users/mateu/CLionProjects/Sdizo/Code/main.cpp
+iostream
+-
+ctime
+-
+table.h
+C:/Users/mateu/CLionProjects/Sdizo/Code/table.h
+list.h
+C:/Users/mateu/CLionProjects/Sdizo/Code/list.h
+
+C:/Users/mateu/CLionProjects/Sdizo/Code/table.h
+

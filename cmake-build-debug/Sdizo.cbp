@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Sdizo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sdizo">
+				<Option output="C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Sdizo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\users\mateu\documents\c c++\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="c:\users\mateu\documents\c c++\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\users\mateu\documents\c c++\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="c:\users\mateu\documents\c c++\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="c:\users\mateu\documents\c c++\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="c:\users\mateu\documents\c c++\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sdizo"/>
+					<CompileFile command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sdizo/fast">
+				<Option output="C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Sdizo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\users\mateu\documents\c c++\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="c:\users\mateu\documents\c c++\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\users\mateu\documents\c c++\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="c:\users\mateu\documents\c c++\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="c:\users\mateu\documents\c c++\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="c:\users\mateu\documents\c c++\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sdizo/fast"/>
+					<CompileFile command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/mateu/DOCUME~1/CC__~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/mateu/CLionProjects/Sdizo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/mateu/CLionProjects/Sdizo/Code/heap.cpp">
+			<Option target="Sdizo"/>
+		</Unit>
+		<Unit filename="C:/Users/mateu/CLionProjects/Sdizo/Code/heap.h">
+			<Option target="Sdizo"/>
+		</Unit>
+		<Unit filename="C:/Users/mateu/CLionProjects/Sdizo/Code/list.cpp">
+			<Option target="Sdizo"/>
+		</Unit>
+		<Unit filename="C:/Users/mateu/CLionProjects/Sdizo/Code/list.h">
+			<Option target="Sdizo"/>
+		</Unit>
+		<Unit filename="C:/Users/mateu/CLionProjects/Sdizo/Code/main.cpp">
+			<Option target="Sdizo"/>
+		</Unit>
+		<Unit filename="C:/Users/mateu/CLionProjects/Sdizo/Code/table.cpp">
+			<Option target="Sdizo"/>
+		</Unit>
+		<Unit filename="C:/Users/mateu/CLionProjects/Sdizo/Code/table.h">
+			<Option target="Sdizo"/>
+		</Unit>
+		<Unit filename="C:/Users/mateu/CLionProjects/Sdizo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
