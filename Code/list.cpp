@@ -2,7 +2,7 @@
 #include "list.h"
 
 using namespace std;
-ifstream file1;
+ifstream file2;
 
 List::List() {
 
@@ -17,18 +17,17 @@ List::~List() {
 
 void List::loaddata() {
     int tmp;
-    file1.open("file.txt");
-    if (file1.fail()) {
+    file2.open("file.txt");
+    if (file2.fail()) {
         cout << "Nie udalo wczytac sie danych" << endl;
         return;
     }
-    while (file1.good()) {
-        file1 >> tmp;
-        cout << tmp << endl;
+    while (file2.good()) {
+        file2 >> tmp;
         List::pushback(tmp);
     }
     cout << "Danie zostaly wczytane" << endl;
-    file1.close();
+    file2.close();
 }
 
 void List::checksize() {
@@ -54,7 +53,6 @@ void List::pushfront(int data) {
         size++;
     }
 
-
 }
 
 
@@ -74,7 +72,6 @@ void List::pushback(int data) {
         tail = p;
         size++;
     }
-
 }
 
 void List::insert(int data, int index) {
@@ -159,7 +156,7 @@ void List::display() {
     p = head;
 
     while (p != nullptr) {
-        cout << "[" << p->data << "]";
+        cout << " [" << p->data << "]";
         p = p->next;
     }
     cout << endl;

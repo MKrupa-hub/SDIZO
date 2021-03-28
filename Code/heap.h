@@ -3,9 +3,10 @@
 class Heap {
 public:
 
-    int *tablica;
+    //tablica w której jest przechowywany kopiec
+    int *table;
 
-    //rozmiar listy
+    //rozmiar tablicy
     int size;
 
     //konstruktor
@@ -15,13 +16,13 @@ public:
     ~Heap();
 
     //dodaje wartosc do kopca
-    void add(int);
+    void add(int data);
 
     //usuwa wartosc z kopca
-    void sub(int);
+    void sub();
 
     //wyszukuje element
-    void search(int);
+    void search(int data);
 
     //wyswietla kopiec
     void display();
@@ -29,11 +30,10 @@ public:
     //poprawia strukture kopca
     void fix();
 
-    //wyswietla ilosc poziomow
-    void layersnum();
-
     //wczytaj dane z pliku znajdujacego sie w tym samym folderze co plik exe
     void loaddata();
 
+    //sprawdza wielkosc tablicy
+    void checksize();
 };
 

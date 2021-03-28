@@ -3,7 +3,7 @@
 #include "table.h"
 
 using namespace std;
-ifstream file;
+ifstream file1;
 
 Table::Table() {
 
@@ -12,23 +12,21 @@ Table::Table() {
 }
 
 Table::~Table() {
-
 }
 
 void Table::loaddata() {
     int tmp;
-    file.open("file.txt");
-    if (file.fail()) {
+    file1.open("file.txt");
+    if (file1.fail()) {
         cout << "Nie udalo wczytac sie danych" << endl;
         return;
     }
-    while (file.good()) {
-        file >> tmp;
-        cout << tmp << endl;
+    while (file1.good()) {
+        file1 >> tmp;
         Table::pushback(tmp);
     }
     cout << "Danie zostaly wczytane" << endl;
-    file.close();
+    file1.close();
 }
 
 void Table::checksize() {
@@ -63,7 +61,6 @@ void Table::insert(int data, int index) {
         p[i] = head[i - 1];
     }
     head = p;
-    delete[]p;
 }
 
 void Table::popback() {
@@ -111,10 +108,9 @@ void Table::pop(int index) {
 
 void Table::display() {
 
-
     if (head != NULL) {
         for (int i = 0; i < size; i++) {
-            cout << "[" << head[i] << "]";
+            cout << " [" << head[i] << "]";
 
         }
         cout << endl;
