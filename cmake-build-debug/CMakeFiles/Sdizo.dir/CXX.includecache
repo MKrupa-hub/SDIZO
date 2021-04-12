@@ -6,19 +6,35 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/mateu/CLionProjects/Sdizo/Code/heap.cpp
+fstream
+-
+iostream
+-
+heap.h
+C:/Users/mateu/CLionProjects/Sdizo/Code/heap.h
+
+C:/Users/mateu/CLionProjects/Sdizo/Code/heap.h
+iostream
+-
+
+C:/Users/mateu/CLionProjects/Sdizo/Code/list.cpp
+fstream
+-
+list.h
+C:/Users/mateu/CLionProjects/Sdizo/Code/list.h
+
 C:/Users/mateu/CLionProjects/Sdizo/Code/list.h
 iostream
 -
 
-C:/Users/mateu/CLionProjects/Sdizo/Code/main.cpp
+C:/Users/mateu/CLionProjects/Sdizo/Code/table.cpp
 iostream
 -
-ctime
+fstream
 -
 table.h
 C:/Users/mateu/CLionProjects/Sdizo/Code/table.h
-list.h
-C:/Users/mateu/CLionProjects/Sdizo/Code/list.h
 
 C:/Users/mateu/CLionProjects/Sdizo/Code/table.h
 

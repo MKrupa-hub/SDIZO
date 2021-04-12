@@ -4,7 +4,6 @@ Kurs: Struktury danych i złożoność obliczeniowa
 Prowadzący: Zbigniew Buchalski
 */
 #include <iostream>
-#include <ctime>
 #include <windows.h>
 #include <iomanip>
 #include "table.h"
@@ -64,7 +63,7 @@ int main() {
                             start = read_QPC();
                             table.display();
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
                             break;
                         case 2:
                             cout << "Podaj wartosc jaka nalezy dodac:";
@@ -72,8 +71,8 @@ int main() {
                             start = read_QPC();
                             table.pushfront(temporary_data);
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            table.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 3:
                             cout << "Podaj wartosc jaka nalezy dodac:";
@@ -81,8 +80,8 @@ int main() {
                             start = read_QPC();
                             table.pushback(temporary_data);
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            table.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 4:
                             cout << "Podaj wartosc jaka nalezy dodac:";
@@ -96,22 +95,22 @@ int main() {
                             start = read_QPC();
                             table.insert(temporary_data, temporary_index);
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            table.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 5:
                             start = read_QPC();
                             table.popfront();
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            table.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 6:
                             start = read_QPC();
                             table.popback();
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            table.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 7:
                             cout << "Podaj index pozycji jaka nalezy usunac:";
@@ -123,8 +122,8 @@ int main() {
                             start = read_QPC();
                             table.pop(temporary_index);
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            table.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 8:
                             cout << "Podaj wartosc szukana:";
@@ -132,15 +131,15 @@ int main() {
                             start = read_QPC();
                             table.search(temporary_index);
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            table.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 9:
                             start = read_QPC();
                             table.loaddata();
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            table.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                     }
                 } while (choice != 10);
@@ -167,7 +166,7 @@ int main() {
                             start = read_QPC();
                             list.display();
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
                             break;
                         case 2:
                             cout << "Podaj wartosc jaka nalezy dodac:";
@@ -175,8 +174,8 @@ int main() {
                             start = read_QPC();
                             list.pushfront(temporary_data);
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            list.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 3:
                             cout << "Podaj wartosc jaka nalezy dodac:";
@@ -184,8 +183,8 @@ int main() {
                             start = read_QPC();
                             list.pushback(temporary_data);
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            list.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 4:
                             cout << "Podaj wartosc jaka nalezy dodac:";
@@ -199,22 +198,22 @@ int main() {
                             start = read_QPC();
                             list.insert(temporary_data, temporary_index);
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            list.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 5:
                             start = read_QPC();
                             list.popfront();
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            list.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 6:
                             start = read_QPC();
                             list.popback();
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            list.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 7:
                             cout << "Podaj index pozycji jaka nalezy usunac:";
@@ -226,8 +225,8 @@ int main() {
                             start = read_QPC();
                             list.pop(temporary_index);
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            list.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                         case 8: // wyszukaj
                             cout << "Podaj wartosc szukana:";
@@ -235,14 +234,14 @@ int main() {
                             start = read_QPC();
                             list.search(temporary_index);
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
                             break;
                         case 9:
                             start = read_QPC();
                             list.loaddata();
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            list.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
                     }
                 } while (choice != 10);
@@ -266,7 +265,7 @@ int main() {
                             start = read_QPC();
                             heap.display();
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
                             break;
 
                         case 2:
@@ -275,16 +274,16 @@ int main() {
                             start = read_QPC();
                             heap.add(temporary_data);
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            heap.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
 
                         case 3:
                             start = read_QPC();
                             heap.sub();
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
-                            heap.display();
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
+
                             break;
 
                         case 4:
@@ -293,14 +292,14 @@ int main() {
                             start = read_QPC();
                             heap.search(temporary_index);
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
                             break;
 
                         case 5:
                             start = read_QPC();
                             heap.loaddata();
                             elapsed = read_QPC() - start;
-                            cout << "Time [s] = " << fixed << setprecision(3) << (float)elapsed / frequency << endl;
+                            cout << "Time [s] = " << fixed << setprecision(6) << (float)elapsed / frequency << endl;
                             break;
                     }
                 } while (choice != 6);

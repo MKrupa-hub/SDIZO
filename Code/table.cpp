@@ -16,7 +16,7 @@ Table::~Table() {
 
 void Table::loaddata() {
     int tmp;
-    file1.open("file.txt");
+    file1.open("input.txt");
     if (file1.fail()) {
         cout << "Nie udalo wczytac sie danych" << endl;
         return;

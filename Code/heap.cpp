@@ -86,7 +86,7 @@ void Heap::fix() {
 
 void Heap::loaddata() {
     int tmp;
-    file3.open("file.txt");
+    file3.open("input.txt");
     if (file3.fail()) {
         cout << "Nie udalo wczytac sie danych" << endl;
         return;

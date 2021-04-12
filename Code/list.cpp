@@ -17,7 +17,7 @@ List::~List() {
 
 void List::loaddata() {
     int tmp;
-    file2.open("file.txt");
+    file2.open("input.txt");
     if (file2.fail()) {
         cout << "Nie udalo wczytac sie danych" << endl;
         return;
